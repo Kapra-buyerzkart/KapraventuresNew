@@ -1,0 +1,42 @@
+/* General Styles */
+.home {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* WhatsApp Icon Styles */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    /* WhatsApp green */
+    color: white;
+    width: 70px;
+    /* Increase size */
+    height: 70px;
+    /* Ensure it's a perfect circle */
+    border-radius: 50%;
+    /* Make it round */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    font-size: 2.5rem;
+    /* Increase icon size */
+    transition: background-color 0.3s, transform 0.3s;
+    z-index: 1000;
+    /* Ensure it's above other content */
+}
+
+.whatsapp-icon:hover {
+    background-color: #128c7e;
+    /* Darker green on hover */
+    transform: scale(1.1);
+    /* Slight zoom effect */
+}
+
+/* Optional: Add font-awesome if you haven't already */
+.fab.fa-whatsapp {
+    margin: 0;
+}
