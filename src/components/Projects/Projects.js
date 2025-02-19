@@ -17,7 +17,7 @@ const projects = [
         name: "Kapra Gold & Diamonds",
         description: "Kapra Gold & Diamonds is a prestigious partnership firm founded in 2024. We are dedicated to offering a perfect fusion of tradition, modern design, and luxury. With an extensive product range, state-of-the-art online shopping facilities, and exciting loyalty programs, the brand aims to deliver unparalleled value and convenience to customers worldwide.",
         logo: goldLogo,
-        link: "https://kapragold.com",
+        link: "https://www.kapragoldanddiamonds.com",
     },
     {
         name: "Kapra WebAI Makers Pvt Ltd",

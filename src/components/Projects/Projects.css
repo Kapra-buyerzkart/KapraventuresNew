@@ -1,7 +1,10 @@
 .projects {
     text-align: center;
     padding: 4rem 2rem;
-    background-color: #f8f9fa;
+    /* background-color: #3C6E71; */
+    background-image: url('../../assets/images/projects-banner.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .projects h2 {
@@ -9,7 +12,7 @@
     margin-bottom: 2rem;
     text-transform: uppercase;
     font-weight: bold;
-    color: #333;
+    color: #ffffff;
 }
 
 /* Grid layout for project cards */
@@ -22,7 +25,7 @@
 
 /* Card styling */
 .project-card {
-    background: #fff;
+    background: #ffffff;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -58,7 +61,7 @@
 }
 
 .project-logo {
-    width: 100px;
+    width: 110px;
     height: auto;
     max-height: 80px;
     /* Keeps all images uniform */
@@ -83,7 +86,7 @@
 
 /* Description container */
 .project-description {
-    flex: 4;
+    flex: 3.6;
     /* Ensures equal height */
     display: flex;
     align-items: flex-start;

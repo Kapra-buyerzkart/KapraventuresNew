@@ -1,0 +1,122 @@
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background: #ffffff; /* White background for contrast */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.contact-form .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-form label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #333; /* Dark text for readability */
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #00bcd4; /* Highlight input fields on focus */
+    box-shadow: 0 0 5px rgba(0, 188, 212, 0.5);
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.contact-form button {
+    width: 50%;
+    background-color: #000000; /* Teal button */
+    color: #FFFFFF;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    align-self: center;
+}
+
+.contact-form button:hover {
+    background-color: #5d5d5d; /* Darker teal on hover */
+    transform: scale(1.05); /* Subtle zoom effect */
+}
+
+.contact {
+    /* background: #3c6e71; Pastel gradient */
+    color: #333; /* Dark text for contrast */
+    text-align: center;
+    padding: 3rem 2rem;
+    /* border-radius: 10px; */
+    background-image: url('../../assets/images/contact-banner.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #FFFFFF; /* Teal heading */
+}
+
+.contact p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    color: #555; /* Subtle text color */
+}
+
+.contact .btn {
+    background-color: #00bcd4; /* Teal button */
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.contact .btn:hover {
+    background-color: #0097a7; /* Darker teal on hover */
+    transform: scale(1.05); /* Subtle zoom effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-form {
+        max-width: 100%;
+        padding: 1rem;
+    }
+
+    .contact-form button {
+        width: 80%;
+    }
+
+    .contact h2 {
+        font-size: 2rem;
+    }
+
+    .contact p {
+        font-size: 1rem;
+    }
+}

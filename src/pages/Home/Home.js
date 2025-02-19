@@ -3,6 +3,8 @@ import "./Home.css";
 import Hero from "../../components/Hero/Hero";
 import About from "../../components/About/About";
 import Projects from "../../components/Projects/Projects";
+import Leadership from "../../components/Leadership/Leadership";
+import Contact from "../../components/Contact/Contact";
 
 const Home = () => {
     return (
@@ -10,9 +12,11 @@ const Home = () => {
             <Hero />
             <About />
             <Projects />
+            <Leadership />
+            <Contact />
             {/* WhatsApp Icon */}
             <a
-                href="https://wa.me/7994396662" // Replace with your WhatsApp number
+                href="https://wa.me/9048356555" // Replace with your WhatsApp number
                 target="_blank"
                 rel="noopener noreferrer"
                 className="whatsapp-icon"
