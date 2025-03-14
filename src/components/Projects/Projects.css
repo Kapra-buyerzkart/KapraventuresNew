@@ -2,9 +2,10 @@
     text-align: center;
     padding: 4rem 2rem;
     /* background-color: #3C6E71; */
-    background-image: url('../../assets/images/projects-banner.png');
+    /* background-image: url('../../assets/images/banner-two.png'); */
     background-size: cover;
     background-position: center;
+    /* background-color: green; */
 }
 
 .projects h2 {
@@ -12,7 +13,7 @@
     margin-bottom: 2rem;
     text-transform: uppercase;
     font-weight: bold;
-    color: #ffffff;
+    color: #333;
 }
 
 /* Grid layout for project cards */

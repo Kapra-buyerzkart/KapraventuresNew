@@ -2,7 +2,7 @@
     text-align: center;
     padding: 4rem 2rem;
     /* background-color: #f8f9fa; */
-    background-image: url('../../assets/images/leadership-banner.png');
+    /* background-image: url('../../assets/images/banner-three.png'); */
     background-size: cover;
     background-position: center;
 }
@@ -12,12 +12,12 @@
     margin-bottom: 1.5rem;
     text-transform: uppercase;
     font-weight: bold;
-    color: #ffffff;
+    color: #333;
 }
 
 .leadership-text {
     font-size: 1.2rem;
-    color: #ffffff;
+    color: #333;
     max-width: 900px;
     margin: 0 auto;
     line-height: 1.8;
@@ -31,20 +31,20 @@
 }
 
 .leader-card {
-    background: #ffffff;
+    /* background: #ffffff; */
     padding-top: 1rem;
     padding-bottom: 0.5rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     text-align: center;
     width: 300px;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    /* transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
 }
 
-.leader-card:hover {
+/* .leader-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
+} */
 
 .leader-image {
     width: 150px;
