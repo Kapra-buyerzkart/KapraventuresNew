@@ -1,12 +1,27 @@
 import React, { useState } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import "./Header.css";
 import logo from "../../assets/images/logo.png";
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+    const location = useLocation();
+    const navigate = useNavigate();
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
+    };
+
+    const scrollToSection = (id) => {
+        setMenuOpen(false);
+        if (location.pathname !== "/") {
+            navigate(`/#${id}`); // Navigate to Home with hash
+        } else {
+            const section = document.getElementById(id);
+            if (section) {
+                section.scrollIntoView({ behavior: "smooth" });
+            }
+        }
     };
 
     return (
@@ -20,10 +35,11 @@ const Header = () => {
                     ☰
                 </button>
                 <nav className={`nav-links ${menuOpen ? "open" : ""}`}>
-                    <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
-                    <a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a>
-                    <a href="#leadership" onClick={() => setMenuOpen(false)}>Leadership</a>
-                    <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
+                    <a onClick={() => scrollToSection("about")}>About</a>
+                    <a onClick={() => scrollToSection("projects")}>Projects</a>
+                    <a onClick={() => scrollToSection("leadership")}>Leadership</a>
+                    <a onClick={() => scrollToSection("contact")}>Contact</a>
+                    <Link to="/gallery" onClick={() => setMenuOpen(false)}>Gallery</Link>
                 </nav>
             </div>
         </header>

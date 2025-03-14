@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'AktivGroteskSBd';
+    src: url('../../assets/fonts/AktivGrotesk_Trial_SBd.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AktivGroteskLt';
+    src: url('../../assets/fonts/AktivGrotesk_Trial_Lt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 .hero {
     display: flex;
     /* align-items: center; */
@@ -11,27 +25,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: left;
     /* padding: 2rem; */
-    background-color: #353535;
+    background: #f4f4f4;
     flex-direction: column;
     text-align: center;
 }
 
 .hero-tagline {
     font-size: 3.5rem;
-    color: #ffffff;
+    color: #3c0309;
     text-transform: uppercase;
-    font-weight: bold;
-    max-width: 80%;
+    /* font-weight: bold; */
+    /* max-width: 80%; */
+    font-family: 'AktivGroteskSBd', sans-serif;
+    line-height: 1.1;
 }
 
 .hero-sub-tagline {
-    font-size: 2.5rem;
-    color: #ffffff;
+    font-size: 1.7rem;
+    color: #000000;
     text-transform: uppercase;
-    font-weight: 500;
-    max-width: 80%;
+    /* font-weight: 500; */
+    /* max-width: 80%; */
+    font-family: 'AktivGroteskLt', sans-serif;
 }
 
 .hero-image {
@@ -65,13 +81,12 @@
     }
 
     .hero-tagline {
-        font-size: 2.8rem;
-        max-width: 100%;
+        font-size: 2.7rem;
     }
 
     .hero-sub-tagline {
-        font-size: 1.9rem;
-        max-width: 100%;
+        font-size: 1.3rem;
+        /* max-width: 100%; */
     }
 
     /* .hero-image img {
@@ -85,16 +100,17 @@
     }
 
     .hero-sub-tagline {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 }
 
 @media (max-width: 480px) {
     .hero-tagline {
         font-size: 1.8rem;
+        max-width: 70%;
     }
 
     .hero-sub-tagline {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }

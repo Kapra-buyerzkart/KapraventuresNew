@@ -56,40 +56,24 @@ const Contact = () => {
                     {console.log("modalMessage", modalMessage)} */}
                     <h2>CONTACT US</h2>
                     <form ref={form} className="contact-form" onSubmit={sendEmail}>
+                        <div className="corner bottom-left"></div>
+                        <div className="corner bottom-right"></div>
+
                         <div className="form-group">
                             <label htmlFor="name">Name</label>
-                            <input
-                                type="text"
-                                id="from_name"
-                                name="from_name"
-                                required
-                            />
+                            <input type="text" id="from_name" name="from_name" required />
                         </div>
                         <div className="form-group">
                             <label htmlFor="email">Email</label>
-                            <input
-                                type="email"
-                                id="from_email"
-                                name="from_email"
-                                required
-                            />
+                            <input type="email" id="from_email" name="from_email" required />
                         </div>
                         <div className="form-group">
                             <label htmlFor="phone">Phone Number</label>
-                            <input
-                                type="tel"
-                                id="from_phone"
-                                name="from_phone"
-                                required
-                            />
+                            <input type="tel" id="from_phone" name="from_phone" required />
                         </div>
                         <div className="form-group">
                             <label htmlFor="message">Message</label>
-                            <textarea
-                                id="from_message"
-                                name="from_message"
-                                required
-                            ></textarea>
+                            <textarea id="from_message" name="from_message" required></textarea>
                         </div>
                         <button type="submit">Submit</button>
                     </form>

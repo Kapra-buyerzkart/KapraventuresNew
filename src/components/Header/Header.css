@@ -1,9 +1,10 @@
 /* General Styles */
 .header {
-    background-color: #284b63;
+    background: linear-gradient(90deg, #fe0911, #ff6f2e, #fa3e01, #c60302);
     color: white;
-    padding: 1rem 2rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0.8rem 1.5rem;
+    /* Reduce padding */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -13,8 +14,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 100%;
+    /* Adjusted to take full width */
     margin: 0 auto;
+    width: 95%;
+    /* Reduce margin space from left and right */
     position: relative;
 }
 
@@ -53,7 +57,7 @@
 }
 
 .nav-links a:hover {
-    color: #9c9c9c;
+    color: #ffb68e;
 }
 
 /* Hamburger Menu Toggle */
@@ -83,7 +87,7 @@
         position: absolute;
         top: 100%;
         left: 0;
-        background-color: #284b63;
+        background-color: #fe0911;
         width: 100%;
         padding: 1rem 2rem;
         transform: translateY(-200%);
