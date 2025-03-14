@@ -6,6 +6,7 @@ import Home from "./pages/Home/Home";
 // import Contact from "./pages/Contact/Contact";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import Team from "./pages/Team/Team";
 import Gallery from "./pages/Gallery/Gallery";
 // import KapraProvider, { KapraContext } from "./context/KapraContext";
 
@@ -30,6 +31,7 @@ const App = () => {
       } */}
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/team" element={<Team />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
       <Footer />
