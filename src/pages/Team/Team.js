@@ -95,15 +95,15 @@ const Team = () => {
   }, [pathname]);
 
   return (
-    <div className="gallery-container">
-      <h2 className="gallery-title">Team Members</h2>
-      <div className="gallery-row">
+    <div className="team-container">
+      <h2 className="team-title">Team Members</h2>
+      <div className="team-row">
         {teamMembers.map((member, index) => (
-          <div key={index} className="gallery-card">
-            <img src={member.photo} alt={PersonImage} className="gallery-image" />
-            <h3 className="gallery-name">{member.name}</h3>
-            <p className="gallery-designation">{member.designation}</p>
-            <p className="gallery-designation">{member.company}</p>
+          <div key={index} className="team-card">
+            <img src={member.photo} alt={PersonImage} className="team-image" />
+            <h3 className="team-name">{member.name}</h3>
+            <p className="team-designation">{member.designation}</p>
+            <p className="team-designation">{member.company}</p>
           </div>
         ))}
       </div>

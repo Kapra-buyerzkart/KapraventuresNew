@@ -1,24 +1,24 @@
-.gallery-container {
-    max-width: 1200px;
+.team-container {
+    max-width: 1300px;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
 }
 
-.gallery-title {
+.team-title {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-.gallery-row {
+.team-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
 
-.gallery-card {
+.team-card {
     background: white;
     padding: 20px;
     border-radius: 12px;
@@ -35,20 +35,20 @@
     justify-content: space-between;
 }
 
-.gallery-card:hover {
+.team-card:hover {
     transform: scale(1.05);
 }
 
-.gallery-image {
+.team-image {
     width: 120px;
     height: 120px;
     border-radius: 50%;
     object-fit: fill;
 }
 
-.gallery-name,
-.gallery-designation,
-.gallery-company {
+.team-name,
+.team-designation,
+.team-company {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,21 +56,21 @@
     text-align: center;
 }
 
-.gallery-name {
+.team-name {
     font-size: 18px;
     font-weight: 600;
     height: 30px;
     /* Fixed height for equal spacing */
 }
 
-.gallery-designation {
+.team-designation {
     font-size: 14px;
     color: gray;
     height: 20px;
     /* Fixed height for equal spacing */
 }
 
-.gallery-company {
+.team-company {
     font-size: 14px;
     color: #007bff;
     font-weight: 500;
@@ -79,34 +79,34 @@
 }
 
 @media (max-width: 768px) {
-    .gallery-row {
+    .team-row {
         gap: 15px;
     }
 
-    .gallery-card {
+    .team-card {
         width: 200px;
         height: 280px;
     }
 
-    .gallery-image {
+    .team-image {
         width: 100px;
         height: 100px;
     }
 }
 
 @media (max-width: 480px) {
-    .gallery-title {
+    .team-title {
         font-size: 25px;
     }
 
-    .gallery-card {
+    .team-card {
         width: 100%;
         max-width: 180px;
         height: 265px;
         /* background-color: #007bff; */
     }
 
-    .gallery-image {
+    .team-image {
         width: 90px;
         height: 90px;
     }
