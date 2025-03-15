@@ -9,6 +9,8 @@ const images = [
     { id: 2, src: GalleryImages.Image2, alt: "Office Celebration 2" },
     { id: 3, src: GalleryImages.Image3, alt: "Office Celebration 3" },
     { id: 4, src: GalleryImages.Image4, alt: "Office Celebration 4" },
+    { id: 5, src: GalleryImages.Image5, alt: "Office Celebration 5" },
+    { id: 6, src: GalleryImages.Image6, alt: "Office Celebration 6" },
 ];
 
 const Gallery = () => {

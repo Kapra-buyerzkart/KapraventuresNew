@@ -43,6 +43,12 @@ const teamMembers = [
     company: "Kapra Daily"
   },
   {
+    name: "Nisha Santhosh",
+    designation: "Assistant Store Manager",
+    photo: Employees.Person,
+    company: "Kapra Daily"
+  },
+  {
     name: "Suneer M",
     designation: "Marketing Associate",
     photo: Employees.Suneer,
@@ -55,6 +61,24 @@ const teamMembers = [
     company: "Kapra Web AI"
   },
   {
+    name: "Saneesh P",
+    designation: "Data Entry Operator",
+    photo: Employees.Person,
+    company: "Kapra Web AI"
+  },
+  {
+    name: "Nandhu",
+    designation: "Office Assistant",
+    photo: Employees.Nandhu,
+    company: "Sellerzkart"
+  },
+  {
+    name: "Gouthamy Gopakumar",
+    designation: "Store Executive",
+    photo: Employees.Person,
+    company: "Kapra Daily"
+  },
+  {
     name: "Aleena KS",
     designation: "Accounts executive",
     photo: Employees.Aleena,
@@ -64,6 +88,12 @@ const teamMembers = [
     name: "Anila KS",
     designation: "Junior Data Entry Operator",
     photo: Employees.Anila,
+    company: "Kapra Daily"
+  },
+  {
+    name: "Nimmy john",
+    designation: "Front Desk Executive",
+    photo: Employees.Nimmy,
     company: "Kapra Daily"
   },
   {

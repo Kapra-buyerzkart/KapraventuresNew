@@ -9,6 +9,10 @@ import Aleena from "../../src/assets/images/Employees/aleena.webp"
 import Dhanyan from "../../src/assets/images/Employees/dhanyan.webp"
 import Moorthy from "../../src/assets/images/Employees/moorthy.webp"
 import Person from "../../src/assets/images/Employees/person.png"
+import Nimmy from "../../src/assets/images/Employees/nimmy.webp"
+import Nandhu from "../../src/assets/images/Employees/nandhu.webp"
+import Nisha from "../../src/assets/images/Employees/nisha.JPG"
+import Gouthamy from "../../src/assets/images/Employees/gouthamy.webp"
 
 const Employees = {
     "Person": Person,
@@ -21,7 +25,10 @@ const Employees = {
     "Anila": Anila,
     "Aleena": Aleena,
     "Dhanyan": Dhanyan,
-    "Moorthy": Moorthy
+    "Moorthy": Moorthy,
+    "Nimmy": Nimmy,
+    "Nandhu": Nandhu,
+    "Nisha": Gouthamy
 }
 
 export default Employees;
