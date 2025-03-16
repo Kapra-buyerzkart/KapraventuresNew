@@ -1,7 +1,7 @@
 import React from "react";
 import "./Leadership.css";
-import cmdImage from "../../assets/images/cmd.jpg"; // Replace with actual CMD image
-import ceoImage from "../../assets/images/ceo.jpg"; // Replace with actual CEO image
+import cmdImage from "../../assets/images/cmd.webp"; // Replace with actual CMD image
+import ceoImage from "../../assets/images/ceo.webp"; // Replace with actual CEO image
 
 const Leadership = () => {
     return (

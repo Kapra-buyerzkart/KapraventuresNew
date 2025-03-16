@@ -37,6 +37,30 @@ const teamMembers = [
     company: "Kapra Daily"
   },
   {
+    name: "Remy MS",
+    designation: "Store Manager",
+    photo: Employees.Person,
+    company: "Sellerzkart"
+  },
+  {
+    name: "Sunil PC",
+    designation: "Store Manager",
+    photo: Employees.Person,
+    company: "Kapra Daily"
+  },
+  {
+    name: "Rohit PJ",
+    designation: "Assistant Store Manager",
+    photo: Employees.Person,
+    company: "Kapra Daily"
+  },
+  {
+    name: "Alex Ajo",
+    designation: "Store Supervisor",
+    photo: Employees.Person,
+    company: "Kapra Daily"
+  },
+  {
     name: "Saru Darai",
     designation: "Assistant Vendor Manager",
     photo: Employees.Saru,
@@ -67,13 +91,19 @@ const teamMembers = [
     company: "Kapra Web AI"
   },
   {
-    name: "Nandhu",
-    designation: "Office Assistant",
+    name: "Nandhu S",
+    designation: "Warehouse Assistant",
     photo: Employees.Nandhu,
     company: "Sellerzkart"
   },
   {
     name: "Gouthamy Gopakumar",
+    designation: "Store Executive",
+    photo: Employees.Person,
+    company: "Kapra Daily"
+  },
+  {
+    name: "Aadhil Sameer",
     designation: "Store Executive",
     photo: Employees.Person,
     company: "Kapra Daily"
@@ -85,15 +115,39 @@ const teamMembers = [
     company: "Kapra Daily"
   },
   {
+    name: "Aslam",
+    designation: "Data Entry Operator",
+    photo: Employees.Aslam,
+    company: "Kapra Daily"
+  },
+  {
     name: "Anila KS",
     designation: "Junior Data Entry Operator",
     photo: Employees.Anila,
     company: "Kapra Daily"
   },
   {
-    name: "Nimmy john",
+    name: "Nimmy John",
     designation: "Front Desk Executive",
     photo: Employees.Nimmy,
+    company: "Kapra Daily"
+  },
+  {
+    name: "Indu C",
+    designation: "Receiving Assistant",
+    photo: Employees.Person,
+    company: "Kapra Daily"
+  },
+  {
+    name: "Anil Kumar K",
+    designation: "Packing & Stacking Staff",
+    photo: Employees.Person,
+    company: "Kapra Daily"
+  },
+  {
+    name: "Anjali R",
+    designation: "Packing Staff",
+    photo: Employees.Person,
     company: "Kapra Daily"
   },
   {

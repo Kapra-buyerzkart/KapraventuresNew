@@ -13,6 +13,7 @@ import Nimmy from "../../src/assets/images/Employees/nimmy.webp"
 import Nandhu from "../../src/assets/images/Employees/nandhu.webp"
 import Nisha from "../../src/assets/images/Employees/nisha.JPG"
 import Gouthamy from "../../src/assets/images/Employees/gouthamy.webp"
+import Aslam from "../../src/assets/images/Employees/aslam.webp"
 
 const Employees = {
     "Person": Person,
@@ -28,7 +29,8 @@ const Employees = {
     "Moorthy": Moorthy,
     "Nimmy": Nimmy,
     "Nandhu": Nandhu,
-    "Nisha": Gouthamy
+    "Nisha": Gouthamy,
+    "Aslam": Aslam
 }
 
 export default Employees;
