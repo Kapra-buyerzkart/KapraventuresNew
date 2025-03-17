@@ -31,12 +31,6 @@ const teamMembers = [
     company: "Kapra Digital"
   },
   {
-    name: "Dhanyan PV",
-    designation: "Vendor Manager",
-    photo: Employees.Dhanyan,
-    company: "Kapra Daily"
-  },
-  {
     name: "Remy MS",
     designation: "Operation Manager-Hub",
     photo: Employees.Remya,
@@ -49,21 +43,15 @@ const teamMembers = [
     company: "Kapra Daily"
   },
   {
+    name: "Dhanyan PV",
+    designation: "Vendor Manager",
+    photo: Employees.Dhanyan,
+    company: "Kapra Daily"
+  },
+  {
     name: "Rohit PJ",
     designation: "Assistant Store Manager",
     photo: Employees.Rohit,
-    company: "Kapra Daily"
-  },
-  {
-    name: "Alex Ajo",
-    designation: "Store Supervisor",
-    photo: Employees.Alex,
-    company: "Kapra Daily"
-  },
-  {
-    name: "Saru Darai",
-    designation: "Assistant Vendor Manager",
-    photo: Employees.Saru,
     company: "Kapra Daily"
   },
   {
@@ -73,10 +61,16 @@ const teamMembers = [
     company: "Kapra Daily"
   },
   {
-    name: "Suneer M",
-    designation: "Marketing Officer",
-    photo: Employees.Suneer,
+    name: "Saru Darai",
+    designation: "Assistant Vendor Manager",
+    photo: Employees.Saru,
     company: "Kapra Daily"
+  },
+  {
+    name: "Jithin KM",
+    designation: "Software Developer",
+    photo: Employees.Jithin,
+    company: "Kapra Web AI"
   },
   {
     name: "Vijin TK",
@@ -91,10 +85,22 @@ const teamMembers = [
     company: "Kapra Web AI"
   },
   {
+    name: "Suneer M",
+    designation: "Marketing Officer",
+    photo: Employees.Suneer,
+    company: "Kapra Daily"
+  },
+  {
     name: "Nandhu S",
     designation: "Warehouse Assistant",
     photo: Employees.Nandhu,
     company: "Sellerzkart"
+  },
+  {
+    name: "Alex Ajo",
+    designation: "Store Supervisor",
+    photo: Employees.Alex,
+    company: "Kapra Daily"
   },
   {
     name: "Gouthamy Gopakumar",
@@ -115,6 +121,12 @@ const teamMembers = [
     company: "Kapra Daily"
   },
   {
+    name: "Nimmy John",
+    designation: "Front Desk Executive",
+    photo: Employees.Nimmy,
+    company: "Kapra Daily"
+  },
+  {
     name: "Muhammad Aslam PA",
     designation: "Junior Data Entry Operator",
     photo: Employees.Aslam,
@@ -124,12 +136,6 @@ const teamMembers = [
     name: "Anila KS",
     designation: "Junior Data Entry Operator",
     photo: Employees.Anila,
-    company: "Kapra Daily"
-  },
-  {
-    name: "Nimmy John",
-    designation: "Front Desk Executive",
-    photo: Employees.Nimmy,
     company: "Kapra Daily"
   },
   {
@@ -147,14 +153,8 @@ const teamMembers = [
   {
     name: "Anjali R",
     designation: "Picking & Packing Staff",
-    photo: Employees.Anjali,
+    photo: Employees.Person,
     company: "Kapra Daily"
-  },
-  {
-    name: "Jithin KM",
-    designation: "Software Developer",
-    photo: Employees.Jithin,
-    company: "Kapra Web AI"
   },
   // {
   //   name: "Rahul VR",

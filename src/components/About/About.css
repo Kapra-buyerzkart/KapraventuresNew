@@ -1,7 +1,7 @@
 .about {
     min-height: 100vh;
     /* Allows section to expand if needed */
-    background-image: url('../../assets/images/about-two.jpg');
+    background-image: url('../../assets/images/about-two.webp');
     background-size: cover;
     background-position: center;
     color: #ffffff;
