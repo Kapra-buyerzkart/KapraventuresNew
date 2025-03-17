@@ -20,15 +20,15 @@ const teamMembers = [
   },
   {
     name: "Rahul VR",
-    designation: "Accounts Manager",
+    designation: "Senior Account Manager",
     photo: Employees.Rahul,
     company: "Kapra Daily"
   },
   {
     name: "Krishna Moorthy PS",
-    designation: "Accounts Manager",
+    designation: "Account Manager Electronics",
     photo: Employees.Moorthy,
-    company: "Kapra Daily"
+    company: "Kapra Digital"
   },
   {
     name: "Dhanyan PV",
@@ -38,26 +38,26 @@ const teamMembers = [
   },
   {
     name: "Remy MS",
-    designation: "Store Manager",
-    photo: Employees.Person,
+    designation: "Operation Manager-Hub",
+    photo: Employees.Remya,
     company: "Sellerzkart"
   },
   {
     name: "Sunil PC",
     designation: "Store Manager",
-    photo: Employees.Person,
+    photo: Employees.Sunil,
     company: "Kapra Daily"
   },
   {
     name: "Rohit PJ",
     designation: "Assistant Store Manager",
-    photo: Employees.Person,
+    photo: Employees.Rohit,
     company: "Kapra Daily"
   },
   {
     name: "Alex Ajo",
     designation: "Store Supervisor",
-    photo: Employees.Person,
+    photo: Employees.Alex,
     company: "Kapra Daily"
   },
   {
@@ -74,7 +74,7 @@ const teamMembers = [
   },
   {
     name: "Suneer M",
-    designation: "Marketing Associate",
+    designation: "Marketing Officer",
     photo: Employees.Suneer,
     company: "Kapra Daily"
   },
@@ -87,7 +87,7 @@ const teamMembers = [
   {
     name: "Saneesh P",
     designation: "Data Entry Operator",
-    photo: Employees.Person,
+    photo: Employees.Saneesh,
     company: "Kapra Web AI"
   },
   {
@@ -99,13 +99,13 @@ const teamMembers = [
   {
     name: "Gouthamy Gopakumar",
     designation: "Store Executive",
-    photo: Employees.Person,
+    photo: Employees.Gouthamy,
     company: "Kapra Daily"
   },
   {
     name: "Aadhil Sameer",
     designation: "Store Executive",
-    photo: Employees.Person,
+    photo: Employees.Aadhil,
     company: "Kapra Daily"
   },
   {
@@ -115,8 +115,8 @@ const teamMembers = [
     company: "Kapra Daily"
   },
   {
-    name: "Aslam",
-    designation: "Data Entry Operator",
+    name: "Muhammad Aslam PA",
+    designation: "Junior Data Entry Operator",
     photo: Employees.Aslam,
     company: "Kapra Daily"
   },
@@ -134,20 +134,20 @@ const teamMembers = [
   },
   {
     name: "Indu C",
-    designation: "Receiving Assistant",
+    designation: "Receiver",
     photo: Employees.Person,
     company: "Kapra Daily"
   },
   {
     name: "Anil Kumar K",
-    designation: "Packing & Stacking Staff",
+    designation: "Picking & Packing Staff",
     photo: Employees.Person,
     company: "Kapra Daily"
   },
   {
     name: "Anjali R",
-    designation: "Packing Staff",
-    photo: Employees.Person,
+    designation: "Picking & Packing Staff",
+    photo: Employees.Anjali,
     company: "Kapra Daily"
   },
   {
