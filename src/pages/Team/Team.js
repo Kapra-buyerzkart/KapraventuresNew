@@ -6,12 +6,12 @@ import PersonImage from "../../assets/images/Employees/person.png";
 import { useLocation } from "react-router-dom";
 
 const teamMembers = [
-  {
-    name: "Anulata Verma",
-    designation: "Human Resources Manager",
-    photo: PersonImage,
-    company: "Kapra Daily"
-  },
+  // {
+  //   name: "Anulata Verma",
+  //   designation: "Human Resources Manager",
+  //   photo: PersonImage,
+  //   company: "Kapra Daily"
+  // },
   {
     name: "Kiran Joseph",
     designation: "Operation Manager",
@@ -30,12 +30,12 @@ const teamMembers = [
     photo: Employees.Moorthy,
     company: "Kapra Digital"
   },
-  {
-    name: "Remy MS",
-    designation: "Operation Manager-Hub",
-    photo: Employees.Remya,
-    company: "Sellerzkart"
-  },
+  // {
+  //   name: "Remy MS",
+  //   designation: "Operation Manager-Hub",
+  //   photo: Employees.Remya,
+  //   company: "Sellerzkart"
+  // },
   {
     name: "Sunil PC",
     designation: "Store Manager",
@@ -67,6 +67,12 @@ const teamMembers = [
     company: "Kapra Daily"
   },
   {
+    name: "Suneer M",
+    designation: "Marketing Officer",
+    photo: Employees.Suneer,
+    company: "Kapra Daily"
+  },
+  {
     name: "Jithin KM",
     designation: "Software Developer",
     photo: Employees.Jithin,
@@ -83,12 +89,6 @@ const teamMembers = [
     designation: "Data Entry Operator",
     photo: Employees.Saneesh,
     company: "Kapra Web AI"
-  },
-  {
-    name: "Suneer M",
-    designation: "Marketing Officer",
-    photo: Employees.Suneer,
-    company: "Kapra Daily"
   },
   {
     name: "Nandhu S",
