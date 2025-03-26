@@ -40,7 +40,7 @@ const Header = () => {
                     <a onClick={() => scrollToSection("leadership")}>Leadership</a>
                     <a onClick={() => scrollToSection("contact")}>Contact</a>
                     <Link to="/team" onClick={() => setMenuOpen(false)}>Team</Link>
-                    <Link to="/gallery" onClick={() => setMenuOpen(false)}>Gallery</Link>
+                    <Link to="/gallery-titles" onClick={() => setMenuOpen(false)}>Gallery</Link>
                 </nav>
             </div>
         </header>
