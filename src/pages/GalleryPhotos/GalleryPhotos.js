@@ -21,22 +21,22 @@ const GalleryPhotos = (props) => {
     }, [selectedImage]);
 
     return (
-        <div className="gallery-container">
-            <h2 className="gallery-title">{title}</h2>
-            <div className="gallery-grid">
+        <div className="gallery-photos-container">
+            <h2 className="gallery-photos-title">{title}</h2>
+            <div className="gallery-photos-grid">
                 {images.map((img, index) => (
                     <img
                         key={img.id}
                         src={img.src}
                         alt={`Gallery ${index}`}
-                        className="gallery-item"
+                        className="gallery-photos-item"
                         onClick={() => setSelectedImage(img.src)}
                     />
                 ))}
             </div>
             {selectedImage && (
-                <div className="fullscreen-overlay" onClick={() => setSelectedImage(null)}>
-                    <img src={selectedImage} alt="Fullscreen" className="fullscreen-image" />
+                <div className="gallery-photos-fullscreen-overlay" onClick={() => setSelectedImage(null)}>
+                    <img src={selectedImage} alt="Fullscreen" className="gallery-photos-fullscreen-image" />
                 </div>
             )}
         </div>

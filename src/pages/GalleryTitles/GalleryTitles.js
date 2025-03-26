@@ -52,7 +52,7 @@ const GalleryTitles = () => {
                         <img src={title.images[0].src} alt={title.images[0].alt} className="gallery-titles-image" />
                         <h3 className="gallery-titles-name">{title.name}</h3>
                         <button
-                            onClick={() => navigate('/gallery-photos', { state: { title: title.name, images: title.images } })}
+                            onClick={() => navigate('/gallery-events/photos', { state: { title: title.name, images: title.images } })}
                             className="gallery-titles-button"
                         >Click Here</button>
                     </div>
