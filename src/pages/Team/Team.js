@@ -72,12 +72,12 @@ const teamMembers = [
     photo: Employees.Suneer,
     company: "Kapra Daily"
   },
-  {
-    name: "Jithin KM",
-    designation: "Software Developer",
-    photo: Employees.Jithin,
-    company: "Kapra Web AI"
-  },
+  // {
+  //   name: "Jithin KM",
+  //   designation: "Software Developer",
+  //   photo: Employees.Jithin,
+  //   company: "Kapra Web AI"
+  // },
   {
     name: "Vijin TK",
     designation: "Graphic Designer",
@@ -126,12 +126,12 @@ const teamMembers = [
     photo: Employees.Nimmy,
     company: "Kapra Daily"
   },
-  {
-    name: "Muhammad Aslam PA",
-    designation: "Junior Data Entry Operator",
-    photo: Employees.Aslam,
-    company: "Kapra Daily"
-  },
+  // {
+  //   name: "Muhammad Aslam PA",
+  //   designation: "Junior Data Entry Operator",
+  //   photo: Employees.Aslam,
+  //   company: "Kapra Daily"
+  // },
   {
     name: "Anila KS",
     designation: "Junior Data Entry Operator",
