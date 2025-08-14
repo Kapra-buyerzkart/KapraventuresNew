@@ -20,7 +20,7 @@ footer .footer-container {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    /* gap: 2rem; */
 }
 
 footer .footer-logo h3 {
@@ -33,7 +33,7 @@ footer .footer-socials {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 }
 
 footer .footer-socials a {
@@ -46,8 +46,31 @@ footer .footer-socials a:hover {
     color: #ffb68e;
 }
 
-footer .footer-socials a {
+footer .footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Align address and email to center */
+    /* margin-top: 1.5rem; */
+    font-size: 1rem;
+    color: #fff;
+}
+
+footer .footer-contact .footer-address,
+footer .footer-contact .footer-email {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    /* margin-bottom: 1rem; */
+}
+
+footer .footer-contact a {
     color: #ffffff;
+    text-decoration: none;
+}
+
+footer .footer-contact a:hover {
+    color: #ffb68e;
 }
 
 footer p {
