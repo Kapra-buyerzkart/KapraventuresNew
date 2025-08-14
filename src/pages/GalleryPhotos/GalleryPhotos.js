@@ -1,24 +1,46 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import "./GalleryPhotos.css";
 import { useLocation } from "react-router-dom";
 
-const GalleryPhotos = (props) => {
-    const [selectedImage, setSelectedImage] = useState(null);
+const GalleryPhotos = () => {
+    const [selectedIndex, setSelectedIndex] = useState(null);
 
     const location = useLocation();
-    const { title, images } = location.state || {};
+    const { title, images = [] } = location.state || {};
+
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [location.pathname]);
 
     useEffect(() => {
-        // Lock scroll when fullscreen overlay is open
-        if (selectedImage) {
-            document.body.classList.add('modal-open');
-        } else {
-            document.body.classList.remove('modal-open');
-        }
-    }, [selectedImage]);
+        document.body.classList.toggle('modal-open', selectedIndex !== null);
+    }, [selectedIndex]);
+
+    const handleKeyDown = useCallback(
+        (e) => {
+            if (selectedIndex !== null) {
+                if (e.key === "ArrowRight") {
+                    if (selectedIndex < images.length - 1) {
+                        setSelectedIndex((prevIndex) => prevIndex + 1);
+                    }
+                } else if (e.key === "ArrowLeft") {
+                    if (selectedIndex > 0) {
+                        setSelectedIndex((prevIndex) => prevIndex - 1);
+                    }
+                } else if (e.key === "Escape") {
+                    setSelectedIndex(null);
+                }
+            }
+        },
+        [selectedIndex, images.length]
+    );
+
+    useEffect(() => {
+        window.addEventListener("keydown", handleKeyDown);
+        return () => {
+            window.removeEventListener("keydown", handleKeyDown);
+        };
+    }, [handleKeyDown]);
 
     return (
         <div className="gallery-photos-container">
@@ -30,13 +52,17 @@ const GalleryPhotos = (props) => {
                         src={img.src}
                         alt={`Gallery ${index}`}
                         className="gallery-photos-item"
-                        onClick={() => setSelectedImage(img.src)}
+                        onClick={() => setSelectedIndex(index)}
                     />
                 ))}
             </div>
-            {selectedImage && (
-                <div className="gallery-photos-fullscreen-overlay" onClick={() => setSelectedImage(null)}>
-                    <img src={selectedImage} alt="Fullscreen" className="gallery-photos-fullscreen-image" />
+            {selectedIndex !== null && (
+                <div className="gallery-photos-fullscreen-overlay" onClick={() => setSelectedIndex(null)}>
+                    <img
+                        src={images[selectedIndex].src}
+                        alt="Fullscreen"
+                        className="gallery-photos-fullscreen-image"
+                    />
                 </div>
             )}
         </div>
