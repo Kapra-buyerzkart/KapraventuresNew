@@ -39,7 +39,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <p>© 2023 KAPRA HIGHNESS VENTURES LTD. All rights reserved.</p>
+            <p>© 2025 KAPRA HIGHNESS VENTURES LTD. All rights reserved.</p>
         </footer>
     );
 };
