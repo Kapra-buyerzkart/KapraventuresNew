@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaFacebook, FaYoutube, FaPinterest, FaTwitter, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaYoutube, FaPinterest, FaTwitter, FaEnvelope, FaMapMarkerAlt, FaLinkedin } from "react-icons/fa";
 import "./Footer.css";
 
 const Footer = () => {
@@ -11,21 +11,24 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-socials">
-                    <a href="https://www.instagram.com/kapraventures" target="_blank" rel="noreferrer">
+                    <a href="https://www.instagram.com/kapragroupin" target="_blank" rel="noreferrer">
                         <FaInstagram size={25} />
                     </a>
-                    <a href="https://www.facebook.com/kaprahighnessventures" target="_blank" rel="noreferrer">
+                    <a href="https://www.facebook.com/share/1CKYm6vcmq" target="_blank" rel="noreferrer">
                         <FaFacebook size={25} />
                     </a>
-                    <a href="https://www.youtube.com/@KapraHighnessVentures" target="_blank" rel="noreferrer">
+                    <a href="https://www.youtube.com/@kapra_group" target="_blank" rel="noreferrer">
                         <FaYoutube size={25} />
                     </a>
-                    <a href="https://www.pinterest.com/KapraHighnessVentures" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/company/kapragroupin" target="_blank" rel="noreferrer">
+                        <FaLinkedin size={25} />
+                    </a>
+                    {/* <a href="https://www.pinterest.com/KapraHighnessVentures" target="_blank" rel="noreferrer">
                         <FaPinterest size={25} />
                     </a>
                     <a href="https://x.com/KPHVentures" target="_blank" rel="noreferrer">
                         <FaTwitter size={25} />
-                    </a>
+                    </a> */}
                 </div>
 
                 <div className="footer-contact">
@@ -39,7 +42,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <p>© 2025 KAPRA HIGHNESS VENTURES LTD. All rights reserved.</p>
+            <p>© 2026 KAPRA HIGHNESS VENTURES LTD. All rights reserved.</p>
         </footer>
     );
 };

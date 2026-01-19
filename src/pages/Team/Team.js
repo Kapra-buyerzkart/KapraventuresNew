@@ -19,18 +19,6 @@ const teamMembers = [
     company: "Sellerzkart"
   },
   {
-    name: "Kiran Joseph",
-    designation: "Operation Manager",
-    photo: Employees.Kiran,
-    company: "Kapra Daily"
-  },
-  {
-    name: "Sreenivasan T",
-    designation: "IT Tech Lead",
-    photo: Employees.Person,
-    company: "Kapra Web AI Makers"
-  },
-  {
     name: "Binu Chandran",
     designation: "Jewellery Manager",
     photo: Employees.Person,
@@ -40,12 +28,6 @@ const teamMembers = [
     name: "Krishna Moorthy PS",
     designation: "Accounts Manager",
     photo: Employees.Moorthy,
-    company: "Kapra Daily"
-  },
-  {
-    name: "Vishnu Pradeep T",
-    designation: "Purchase Manager",
-    photo: Employees.Person,
     company: "Kapra Daily"
   },
   // {
@@ -73,12 +55,6 @@ const teamMembers = [
     company: "Kapra Web AI Makers"
   },
   {
-    name: "Vijin TK",
-    designation: "Creative Head",
-    photo: Employees.Vijin,
-    company: "Kapra Web AI Makers"
-  },
-  {
     name: "Saru Darai",
     designation: "Assistant Vendor Manager",
     photo: Employees.Saru,
@@ -88,12 +64,6 @@ const teamMembers = [
     name: "Saneesh P",
     designation: "Data Operation Assistant Manager",
     photo: Employees.Saneesh,
-    company: "Kapra Daily"
-  },
-  {
-    name: "Rohit PJ",
-    designation: "Assistant Store Manager",
-    photo: Employees.Rohit,
     company: "Kapra Daily"
   },
   {
@@ -127,18 +97,6 @@ const teamMembers = [
     company: "Kapra Daily"
   },
   {
-    name: "Antony John",
-    designation: "Warehouse Incharge",
-    photo: Employees.Person,
-    company: "Sellerzkart"
-  },
-  {
-    name: "Alex Ajo",
-    designation: "Store Supervisor",
-    photo: Employees.Alex,
-    company: "Kapra Daily"
-  },
-  {
     name: "Unni Thilakan",
     designation: "Store Supervisor",
     photo: Employees.Person,
@@ -162,36 +120,12 @@ const teamMembers = [
     photo: Employees.Person,
     company: "Kapra Web AI Makers"
   },
-  {
-    name: "Pravin Simson",
-    designation: "Multimedia Content Creator",
-    photo: Employees.Person,
-    company: "Kapra Web AI Makers"
-  },
-  {
-    name: "Nandhu S",
-    designation: "Executive Assistant",
-    photo: Employees.Nandhu,
-    company: "Sellerzkart"
-  },
-  {
-    name: "Anjali R",
-    designation: "Warehouse Assistant",
-    photo: Employees.Person,
-    company: "Sellerzkart"
-  },
-  {
-    name: "Anila KS",
-    designation: "Data Entry Executive",
-    photo: Employees.Anila,
-    company: "Kapra Daily"
-  },
-  {
-    name: "Kavya V",
-    designation: "Data Entry Executive",
-    photo: Employees.Person,
-    company: "Kapra Daily"
-  },
+  // {
+  //   name: "Anila KS",
+  //   designation: "Data Entry Executive",
+  //   photo: Employees.Anila,
+  //   company: "Kapra Daily"
+  // },
   {
     name: "Mariya Tomy",
     designation: "Data Entry Executive",
@@ -201,18 +135,6 @@ const teamMembers = [
   {
     name: "Fransa Mol TF",
     designation: "Data Entry Executive",
-    photo: Employees.Person,
-    company: "Kapra Daily"
-  },
-  {
-    name: "Jasla T",
-    designation: "Data Entry Executive",
-    photo: Employees.Person,
-    company: "Kapra Daily"
-  },
-  {
-    name: "Anil Kumar K",
-    designation: "Store Executive",
     photo: Employees.Person,
     company: "Kapra Daily"
   },
@@ -236,12 +158,6 @@ const teamMembers = [
   },
   {
     name: "Abinanth Suresh",
-    designation: "Store Executive",
-    photo: Employees.Person,
-    company: "Kapra Daily"
-  },
-  {
-    name: "Sindrella Stephen",
     designation: "Store Executive",
     photo: Employees.Person,
     company: "Kapra Daily"
