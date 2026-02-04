@@ -8,106 +8,107 @@
 .team-title {
     font-size: 30px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
+/* GRID LAYOUT = BEST FOR RESPONSIVE */
 .team-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    justify-items: center;
 }
 
 .team-card {
     background: white;
     padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     text-align: center;
-    transition: transform 0.3s ease-in-out;
-    width: 230px;
-    /* Ensuring equal width */
-    height: 300px;
-    /* Ensuring equal height */
+    transition: transform 0.25s ease;
+    width: 100%;
+    max-width: 230px;
+    height: 310px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
 }
 
 .team-card:hover {
-    transform: scale(1.05);
+    transform: translateY(-6px);
 }
 
-.team-image {
+/* IMAGE */
+.team-image-wrapper {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    object-fit: fill;
-}
+    overflow: hidden;
+    background-color: #f2f2f2;
 
-.team-name,
-.team-designation,
-.team-company {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    text-align: center;
+    margin-bottom: 14px;
 }
 
+.team-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* 🔑 */
+}
+
+/* TEXT */
 .team-name {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
-    height: 30px;
-    /* Fixed height for equal spacing */
+    margin: 6px 0;
 }
 
 .team-designation {
     font-size: 14px;
-    color: gray;
-    height: 20px;
-    /* Fixed height for equal spacing */
+    color: #777;
+    margin: 2px 0;
 }
 
 .team-company {
     font-size: 14px;
-    color: #007bff;
     font-weight: 500;
-    height: 20px;
-    /* Fixed height for equal spacing */
+    color: #007bff;
+    margin-top: 4px;
 }
 
+/* TABLET */
 @media (max-width: 768px) {
-    .team-row {
-        gap: 15px;
+    .team-title {
+        font-size: 26px;
     }
 
     .team-card {
-        width: 200px;
-        height: 280px;
+        height: 310px;
     }
 
-    .team-image {
-        width: 100px;
-        height: 100px;
+    .team-image-wrapper {
+        width: 110px;
+        height: 110px;
     }
 }
 
+/* MOBILE */
 @media (max-width: 480px) {
     .team-title {
-        font-size: 25px;
+        font-size: 24px;
     }
 
     .team-card {
-        width: 100%;
-        max-width: 180px;
-        height: 265px;
-        /* background-color: #007bff; */
+        height: auto;
+        padding: 18px;
     }
 
-    .team-image {
-        width: 90px;
-        height: 90px;
+    .team-image-wrapper {
+        width: 95px;
+        height: 95px;
     }
 }
