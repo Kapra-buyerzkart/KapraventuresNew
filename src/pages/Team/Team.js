@@ -26,7 +26,7 @@ const teamMembers = [
   },
   {
     name: "Sajil Prasad",
-    designation: "CTO",
+    designation: "Chief Technology Officer",
     photo: Employees.Sajil,
     company: "Kapra Web AI Makers"
   },
@@ -94,7 +94,7 @@ const teamMembers = [
     name: "Kiran KU",
     designation: "Store Supervisor",
     photo: Employees.Person,
-    company: "Kapra Daily - Chalakudy"
+    company: "Kapra Daily - Tirur"
   },
   {
     name: "Rijin PJ",
@@ -107,12 +107,6 @@ const teamMembers = [
     designation: "Store Supervisor",
     photo: Employees.Person,
     company: "Kapra Daily - Chalakudy"
-  },
-  {
-    name: "Arjun Manoj",
-    designation: "Store Supervisor",
-    photo: Employees.Person,
-    company: "Kapra Daily - Kanichukulangara"
   },
   {
     name: "Sumith Subramaniyan",
@@ -187,16 +181,10 @@ const teamMembers = [
     company: "Kapra Gold and Diamonds - Thripunithura"
   },
   {
-    name: "Shari",
-    designation: "Reception",
-    photo: Employees.Person,
-    company: "Kapra Gold and Diamonds - Thripunithura"
-  },
-  {
-    name: "Suresh Babu",
-    designation: "Smith",
-    photo: Employees.Person,
-    company: "Kapra Gold and Diamonds - Thripunithura"
+    name: "Niya Paul",
+    designation: "Warehouse Executive",
+    photo: Employees.Niya,
+    company: "Kapra Daily - HO"
   },
   {
     name: "Saneesh P",
@@ -220,12 +208,6 @@ const teamMembers = [
     name: "Mariya Tomy",
     designation: "Data Entry Operator",
     photo: Employees.Mariya,
-    company: "Kapra Daily - HO"
-  },
-  {
-    name: "Niya Paul",
-    designation: "Warehouse Executive",
-    photo: Employees.Niya,
     company: "Kapra Daily - HO"
   },
   {
@@ -433,6 +415,18 @@ const teamMembers = [
     company: "Kapra Daily - Vennala"
   },
   {
+    name: "Shari",
+    designation: "Reception",
+    photo: Employees.Person,
+    company: "Kapra Gold and Diamonds - Thripunithura"
+  },
+  {
+    name: "Suresh Babu",
+    designation: "Smith",
+    photo: Employees.Person,
+    company: "Kapra Gold and Diamonds - Thripunithura"
+  },
+  {
     name: "Safna",
     designation: "Office Assistant",
     photo: Employees.Person,
@@ -483,7 +477,7 @@ const teamMembers = [
   {
     name: "Sheeba Paul",
     designation: "House Keeping",
-    photo: Employees.Person,
+    photo: Employees.Sheeba,
     company: "Kapra Daily - HO"
   },
   {

@@ -18,6 +18,7 @@ import Sajil from "../../src/assets/images/Employees/sajil.webp"
 import Manju from "../../src/assets/images/Employees/manju.webp"
 import Sumith from "../../src/assets/images/Employees/sumith.webp"
 import Mohandas from "../../src/assets/images/Employees/mohandas.webp"
+import Sheeba from "../../src/assets/images/Employees/sheeba.webp"
 
 const Employees = {
     "Person": Person,
@@ -40,7 +41,8 @@ const Employees = {
     "Sajil": Sajil,
     "Manju": Manju,
     "Sumith": Sumith,
-    "Mohandas": Mohandas
+    "Mohandas": Mohandas,
+    'Sheeba': Sheeba
 }
 
 export default Employees;
