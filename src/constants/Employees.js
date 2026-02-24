@@ -1,6 +1,6 @@
 import Rahul from "../../src/assets/images/Employees/rahul.webp"
 import Saru from "../../src/assets/images/Employees/saru.webp"
-import Jithin from "../../src/assets/images/Employees/jithin.webp"
+// import Jithin from "../../src/assets/images/Employees/jithin.webp"
 import Aleena from "../../src/assets/images/Employees/aleena.webp"
 import Person from "../../src/assets/images/Employees/person.png"
 import Saneesh from "../../src/assets/images/Employees/saneesh.webp"
@@ -24,7 +24,7 @@ const Employees = {
     "Person": Person,
     "Rahul": Rahul,
     "Saru": Saru,
-    "Jithin": Jithin,
+    // "Jithin": Jithin,
     "Aleena": Aleena,
     "Nisha": Person,
     "Saneesh": Saneesh,

@@ -126,12 +126,12 @@ const teamMembers = [
     photo: Employees.Person,
     company: "Kapra Daily - HO"
   },
-  {
-    name: "Jithin KM",
-    designation: "Software Engineer",
-    photo: Employees.Jithin,
-    company: "Kapra Web AI Makers"
-  },
+  // {
+  //   name: "Jithin KM",
+  //   designation: "Software Engineer",
+  //   photo: Employees.Jithin,
+  //   company: "Kapra Web AI Makers"
+  // },
   {
     name: "Saru Darai",
     designation: "Assistant Vendor Manager",
